@@ -1,17 +1,17 @@
 .modalBackground {
-    width: 900px;
-    height:900px;
+    width:900px;
+    height:500px;
     background-color: rgb(180, 132, 132);
     box-shadow: 5px;
     border-radius: 12px;
-    position: fixed;
+    position: static;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .modalcontainer{
-    width: 650px;
-    height:700px ;
+    width: 900px;
+    height:500px ;
     background-color: rgb(253, 251, 251);
     box-shadow:rgb(52, 50, 50) ;
     display: flex;
@@ -34,8 +34,13 @@
     font-size: 25px;
     cursor: pointer;
   }
+  h3{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    color: #fff;
+  }
   .modal-body{
-    flex: 50%;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,7 +61,7 @@
     background-color: crimson;
     border-radius: 5px;
     font-family: 'Permanent Marker', cursive;
-    font-size: 38px;
+    font-size: 25px;
     color: #fff;
     cursor: pointer;
   }

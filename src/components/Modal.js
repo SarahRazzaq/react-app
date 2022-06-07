@@ -12,7 +12,7 @@ function Modal({closeModal}) {
                <h1>You want to book a call?</h1>
             </div>
             <div className='modal-body'>
-                <h1> Call me at 0708-88 99 00</h1>
+                <h3> Call me at 0708-88 99 00</h3>
             </div>
             <div className='modal-footer'>
                 <button 
